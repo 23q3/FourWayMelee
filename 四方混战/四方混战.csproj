@@ -101,6 +101,7 @@
     <Compile Include="Config.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="方法\SCP049.cs" />
     <Compile Include="方法\亮亮博士.cs" />
     <Compile Include="方法\保安.cs" />
     <Compile Include="方法\支援.cs" />

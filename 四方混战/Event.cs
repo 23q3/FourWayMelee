@@ -23,6 +23,17 @@ namespace 四方混战
         {
             Player p = ev.Player;
             方法.方法.普通血量(p);
+            方法.方法.逃出装备(ev, p);
+            方法.方法.SCP设置(ev, p);
+        }
+        public static void 玩家生成前(SpawningEventArgs ev)
+        {
+            Player p = ev.Player;
+        }
+        public static void 玩家逃出前(EscapingEventArgs ev) 
+        {
+            Player p = ev.Player;
+            亮亮博士.亮亮逃出(ev,p);
         }
         public static void 支援刷新前(RespawningTeamEventArgs ev)
         {

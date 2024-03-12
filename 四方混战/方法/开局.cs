@@ -28,6 +28,11 @@ namespace 四方混战.方法
             {
                 双狗局 = true;
                 最大血量 = 150;
+                foreach(Player p in Player.List) 
+                {
+                    p.Role.Set(RoleTypeId.Scp939,SpawnReason.RoundStart,RoleSpawnFlags.All);
+                    return;
+                }
             }
         }
         public static void 黑卡()

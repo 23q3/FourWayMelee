@@ -75,6 +75,7 @@ namespace 四方混战.方法
                 }
                 if (arguments.At(0) == "hdxqd")
                 {
+                    方法.删除角色(player);
                     先遣队.生成先遣队(player);
                     response = "生成成功！";
                     player = null;
@@ -82,6 +83,7 @@ namespace 四方混战.方法
                 }
                 else if (arguments.At(0) == "ba")
                 {
+                    方法.删除角色(player);
                     保安.保安属性(player);
                     response = "生成成功！";
                     player = null;
@@ -96,6 +98,7 @@ namespace 四方混战.方法
                 }
                 else if (arguments.At(0) == "ll")
                 {
+                    方法.删除角色(player);
                     亮亮博士.生成亮亮(player);
                     response = "生成成功！";
                     return true;

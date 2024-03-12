@@ -19,7 +19,7 @@ namespace 四方混战.方法
                 ItemType.GrenadeFlash
             };
             方法.生成角色(p, RoleTypeId.ChaosMarauder, Exiled.API.Enums.SpawnReason.RoundStart, RoleSpawnFlags.AssignInventory, false, 200, 物品, "混沌先遣队", "green",
-                "你是混沌先遣队！担起作为先锋部队的职责\n" +
+                "\n你是混沌先遣队！担起作为先锋部队的职责\n" +
                 "努力救出尽可能多的D级人员\n" +
                 "争取票数以获得支援！\n"
                 , 15,角色名:"hdxqd");         
